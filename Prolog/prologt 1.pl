@@ -9,7 +9,7 @@ vyvod(Geroi) :-
     member([volk, fauna], Geroi),
     member([nif, MarkaNif], Geroi), marka(MarkaNif), MarkaNif \= fauna,
     member([naf, MarkaNaf], Geroi), marka(MarkaNaf), MarkaNaf \= fauna,
-    member([nuf, MarkaNuf], Geroi), marka(MarkaNuf), MarkaNuf \= fauna,
+    member([nuf, MarkaNuf], Geroi), marka(MarkaNuf), MarkaNuf \= fauna, 
     sleva([volk, fauna], [naf, MarkaNaf], Geroi),
     sprava([nif, MarkaNif], [_, kosmos], Geroi), 
     naprotiv([nuf, MarkaNuf], [naf, MarkaNaf], Geroi),
